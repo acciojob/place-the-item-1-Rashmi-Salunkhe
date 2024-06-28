@@ -1,22 +1,25 @@
-.holder {
-  display: flex;
-  flex-wrap: wrap;
-}
+ .holder {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 100%;
+    }
 
-.item {
-  width: 50px;
-  height: 50px;
-  margin: 5px;
-}
+    .item {
+      width: 50px;
+      height: 50px;
+      margin: 5px;
+		font-weight: bold;
+    }
 
-.green {
-  background-color: green;
-}
+    .green {
+      background-color: green;
+    }
 
-.red {
-  background-color: red;
-}
+    .red {
+      background-color: red;
+    }
 
-.blue {
-  background-color: blue;
-}
+    .blue {
+      background-color: blue;
+    }
